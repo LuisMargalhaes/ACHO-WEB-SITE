@@ -1,0 +1,16 @@
+<div class="course-container">
+    <div class="course-header" (click)="toggleCourse()">
+      <h3 class="azul">Centro de Treinamento Remo</h3>
+      <p>Centro de Treinamento Infanto-Juvenil</p>
+      <span class="icon">{{ isExpanded ? '▲' : '▼' }}</span>
+    </div>
+  
+    <!-- Lista de inscritos que aparece ou desaparece ao clicar -->
+    <ul class="student-list" *ngIf="isExpanded">
+      <li *ngFor="let student of students">
+        {{ student.name }}
+        <a href="#" class="view-more">Ver mais</a>
+      </li>
+    </ul>
+  </div>
+  

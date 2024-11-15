@@ -1,0 +1,163 @@
+/* Estilos Gerais */
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Header da Empresa */
+  .company-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .company-logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .company-info {
+    flex: 1;
+  }
+  
+  .company-info h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #005f73;
+  }
+  
+  .company-info p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Informações de Contato */
+  .contact-info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .contact-row {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-item span {
+    font-weight: bold;
+    color: #005f73;
+  }
+  
+ /* Título da Seção */
+ .section-title {
+  font-size: 20px;
+  color: #17616E;
+  text-align: left;
+  margin: 20px 0;
+  margin-left: 20px; /* Afasta o título da imagem */
+}
+
+
+/* Estilos Gerais */
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Cartão do Curso */
+.course-card {
+  width: 98%;
+  max-width: 850px;
+  margin: 20px auto;
+  border: 1px solid #17616E;
+  border-radius: 20px;
+  padding: 20px 30px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  background-color: #ffffff;
+  position: relative;
+}
+
+/* Título do Curso */
+.course-title {
+  font-size: 18px;
+  color: #005f73;
+  margin-left: 0;
+  margin-bottom: 5px;
+}
+
+/* Contêiner da Imagem */
+.course-image-container {
+  flex: 0 0 200px;
+}
+
+.course-image {
+  width: 200px;
+  height: 160px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Informações do Curso */
+.course-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 55px; /* Aumenta o espaçamento para descer o texto */
+}
+
+.training-title {
+  font-size: 18px;
+  color: #005f73;
+  margin: 0;
+}
+
+.sub-title {
+  font-size: 16px;
+  color: #005f73;
+  margin: 5px 0;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Botão de Edição */
+.edit-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  color: #17616E;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding-top: 55px; /* Aumenta o espaçamento para descer o texto */
+}
+
+.edit-button i {
+  font-size: 20px;
+}
+
+.edit-button:hover {
+  color: #005f73;
+}

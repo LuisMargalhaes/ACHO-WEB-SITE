@@ -1,0 +1,69 @@
+.account-container {
+    width: 300px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    color: #17616E;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9em;
+  }
+  
+  .email,
+  .password {
+    font-size: 0.9em;
+    color: #333;
+    margin: 5px 0 15px;
+  }
+  
+  a {
+    color: #17616E;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  button.view-sessions {
+    height: 35px;
+    width: 100px;
+    background-color: #17616E;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 0.9em;
+  }
+  
+  button.view-sessions:hover {
+    background-color: #17616E;
+  }
+  
+  .delete-account {
+    color: #E71901;
+    text-decoration: none;
+    font-size: 0.9em;
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  .delete-account:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,56 @@
+/* Estilo para o contêiner */
+.course-container {
+  width: 80%; /* Define a largura como 80% */
+  max-width: 1200px; /* Define uma largura máxima */
+  margin: 20px auto; /* Centraliza o contêiner horizontalmente */
+  border: 1px solid #17616E;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: #ffffff; /* Define o fundo como branco */
+}
+.azul{
+  color: #17616E;
+}
+/* Estilo para o cabeçalho */
+.course-header {
+  display: flex;
+  flex-direction: column; /* Coloca o texto em coluna */
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.course-header h3 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.course-header p {
+  margin: 5px 0 0 0;
+  color: #555;
+}
+
+.icon {
+  font-size: 1.2em;
+  align-self: flex-end;
+  color: #E15C31;
+}
+
+/* Estilo para a lista de alunos */
+.student-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.student-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #17616E;
+}
+
+.view-more {
+  color: #E15C31;
+  text-decoration: none;
+}
